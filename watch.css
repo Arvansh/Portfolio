@@ -1,0 +1,42 @@
+
+.outerContainer{
+  width: 435px;
+  height: 200px;
+  margin: 170px auto;
+  border: 3px solid;
+  border-radius: 25px;
+  background-color: #89e400;
+  box-shadow: 0px 10px 10px black;
+}
+
+.innerContainer{
+  border: 1px solid #89e400;
+  border-radius: 25px;
+  width: 415px;
+  height: 180px;
+  margin: 8px auto;
+  background-color: #bdff5a;
+}
+
+.inner2Container{
+  margin: 9px auto;
+  width: 395px;
+  height: 160px;
+  border: 1px solid #bdff5a;
+  border-radius: 25px;
+  background-color: #cfff86;
+  text-align: center;
+}
+
+.label{
+  margin:27px auto;
+  width: 355px;
+  height: 100px;
+  border: #cfff86 1px solid;
+  border-radius: 25px;
+  background-color: #e5ffbe;
+}
+
+#display{
+  font-size: 5em;
+}
