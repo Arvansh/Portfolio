@@ -27,6 +27,7 @@ main div{
   margin: 10px;
   flex-direction: column;
   background-color: #fff;
+  overflow: hidden;
 }
 main div h1{
   margin:5px
