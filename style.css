@@ -127,6 +127,7 @@ main img {
 
 footer{
   background-color: #0066ff;
+  width:100%;
   border: #002864 3px solid;
   display: flex;
   align-items: center;
