@@ -1,0 +1,27 @@
+body{
+  background-color: black;
+  color: white;
+  box-sizing: border-box;
+}
+p, h3, h4{
+ text-align: center;
+}
+
+button{
+  display: block;
+  margin: auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+@media screen and (min-width:1024px){
+  .hc{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .hc h3{
+    text-align: left;
+  }
+}

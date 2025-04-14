@@ -1,0 +1,46 @@
+
+.outerContainer{
+  max-width: 435px;
+  min-width: 300px;
+  height: 200px;
+  margin: 170px auto;
+  border: 3px solid;
+  border-radius: 25px;
+  background-color: #89e400;
+  box-shadow: 0px 10px 10px black;
+}
+
+.innerContainer{
+  border: 1px solid #89e400;
+  border-radius: 25px;
+  max-width: 415px;
+  min-width:280px;
+  height: 180px;
+  margin: 8px auto;
+  background-color: #bdff5a;
+}
+
+.inner2Container{
+  margin: 9px auto;
+  max-width: 395px;
+  min-width: 260px;
+  height: 160px;
+  border: 1px solid #bdff5a;
+  border-radius: 25px;
+  background-color: #cfff86;
+  text-align: center;
+}
+
+.label{
+  margin:27px auto;
+  max-width: 355px;
+  min-width: 240px;
+  height: 100px;
+  border: #cfff86 1px solid;
+  border-radius: 25px;
+  background-color: #e5ffbe;
+}
+
+#display{
+  font-size: 5em;
+}
