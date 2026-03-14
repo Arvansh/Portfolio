@@ -80,7 +80,7 @@ nav ul li a:hover {
 }
 
 .hero-content .btn:hover {
-  background-color: #f7a600;
+  background: linear-gradient(45deg, rgb(0, 255, 98), rgb(0, 204, 255), rgb(89, 0, 255));
 }
 
 /* About Section */
@@ -102,24 +102,28 @@ nav ul li a:hover {
   color: #555;
 }
 
-/* Projects Section */
-#projects {
+/* Projects & Skills Section */
+#projects, 
+#skills {
   padding: 80px 50px;
   background-color: #f7f7f7;
 }
 
-#projects .section-title {
+#projects .section-title, 
+#skills .section-title {
   text-align: center;
   margin-bottom: 40px;
 }
 
-.projects-grid {
+.projects-grid, 
+.skills-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
 }
 
-.project-card {
+.project-card, 
+.skill-card {
   background-color: #fff;
   padding: 30px;
   border-radius: 8px;
@@ -127,16 +131,19 @@ nav ul li a:hover {
   transition: transform 0.3s ease;
 }
 
-.project-card:hover {
+.project-card:hover,
+.skill-card:hover {
   transform: translateY(-10px);
 }
 
-.project-card h3 {
+.project-card h3,
+.skills-card h3 {
   margin-bottom: 15px;
   font-size: 1.5rem;
 }
 
-.project-card p {
+.project-card p,
+.skills-card p {
   margin-bottom: 20px;
 }
 
@@ -150,7 +157,7 @@ nav ul li a:hover {
 }
 
 .project-card .btn:hover {
-  background-color: #f7a600;
+  background: linear-gradient(45deg, rgb(0, 255, 98), rgb(0, 204, 255), rgb(89, 0, 255));
 }
 
 /* Contact Section */
@@ -190,7 +197,7 @@ nav ul li a:hover {
 }
 
 #contact button:hover {
-  background-color: #f7a600;
+  background: linear-gradient(45deg, rgb(0, 255, 98), rgb(0, 204, 255), rgb(89, 0, 255));
 }
 
 /* Footer */
